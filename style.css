@@ -14,25 +14,39 @@ body {
 
 /* Header */
 .header {
+    padding: 15px 8%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background: #007BFF;
-    padding: 1rem 2rem;
-    color: white;
+    justify-content: space-between;
+    background: var(--gradient-white-bg);
+    z-index: 100;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 .logo {         
     width: 50px; /* Adjust the width as needed */
     height: 50px; /* Maintain aspect ratio */
     margin: 20px; /* Add some margin if needed */
 }
 
+header .logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
 span {
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
-    color:  #fce8f1;
+    color: transparent;
 }
+
 .nav ul {
     list-style: none;
     display: flex;
