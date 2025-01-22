@@ -31,7 +31,7 @@ body {
 span {
     background: var(--gradient-color-bg);
     -webkit-background-clip: text;
-    color: transparent;
+    color:  #fce8f1;
 }
 .nav ul {
     list-style: none;
